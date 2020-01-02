@@ -1,0 +1,45 @@
+Welcome to the parameters file. Please, answer the questions below.
+
+Select the working directory
+working_directory: 
+
+Are the sample files being downloaded from the Internet? (YES or NO)
+int: 
+
+Path to genome
+genome: 
+
+Path to annotation
+annotation: 
+
+Number of samples
+number_of_samples: 
+
+Number of chip/input samples
+number_chip_samples: 
+number_input_samples: 
+
+Path/URL chip samples
+chip_sample_1: 
+
+Path/URL input samples
+input_sample_1: 
+Path to scripts
+scripts: 
+
+For R analysis, it is necessary some packages to be installed. Please, verify that they are all installed. The packages are
+ChIPseeker
+TxDb.Athaliana.BioMart.plantsmart28
+clusterProfiler
+AnnotationDbi
+org.At.tair.db
+topGO
+Rgraphviz
+pathview
+
+After the installation, please specify.
+The region you consider as promoter (a number)
+promoter: 
+The output file name for the regulated genes (please do not forget the file format .txt)
+output_file: 
+
