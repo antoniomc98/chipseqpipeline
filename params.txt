@@ -1,0 +1,45 @@
+Welcome to the parameters file. Please, answer the questions below.
+
+Select the working directory
+working_directory: /home/biodep/githubrepo/biodep/chip/prr5_prueba
+
+Are the sample files being downloaded from the Internet? (YES or NO)
+int: NO
+
+Path to genome
+genome: /home/biodep/prr5_samples/genome/chromosome1.fa
+
+Path to annotation
+annotation: /home/biodep/prr5_samples/annotation/chromosome1.gtf
+
+Number of samples
+number_of_samples: 2
+
+Number of chip/input samples
+number_chip_samples: 1
+number_input_samples: 1
+
+Path/URL chip samples
+chip_sample_1: /home/biodep/prr5_samples/samples/chip/chip_prr5_chr1.fastq
+
+Path/URL input samples
+input_sample_1: /home/biodep/prr5_samples/samples/input/input_prr5_chr1.fastq
+Path to scripts
+scripts: /home/biodep/githubrepo/biodep/chip
+
+For R analysis, it is necessary some packages to be installed. Please, verify that they are all installed. The packages are
+ChIPseeker
+TxDb.Athaliana.BioMart.plantsmart28
+clusterProfiler
+AnnotationDbi
+org.At.tair.db
+topGO
+Rgraphviz
+pathview
+
+After the installation, please specify.
+The region you consider as promoter (a number)
+promoter: 1000
+The output file name for the regulated genes (please do not forget the file format .txt)
+output_file: target_genes.txt
+
