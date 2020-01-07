@@ -9,12 +9,12 @@ In order to do that, the pipeline has 5 different scripts and an additional para
 
 Before using this pipeline, please make sure you follow the next requirements:
 
-- You have installed R in your device and the following packages: ChIPseeker, TxDb.Athaliana.BioMart.plantsmart28, clusterProfiler, AnnotationDbi, org.At.tair.db, topGO, Rgraphviz y pathview.
+- You have installed R and the following packages: ChIPseeker, TxDb.Athaliana.BioMart.plantsmart28, clusterProfiler, AnnotationDbi, org.At.tair.db, topGO, Rgraphviz y pathview.
 
 - You have installed HOMER and the genome of the organism of study. To install HOMER, it is imperative that you copy the PATH in the file ‘.profile’ in order for this pipeline to work.
 
 
-To run this pipeline, execute the files ‘pipechipseq.sh’ and ‘params.txt’.
+To run this pipeline, execute the files ‘pipechipseq.sh’ with ‘params.txt’.
 
 If an error is found, please check again you follow all requirements and all data in the parameters file are as expected.
 
